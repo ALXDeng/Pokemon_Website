@@ -93,7 +93,8 @@ $(function(){ initResizable(false); });
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#enum-members">Enumerations</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">components.d File Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -114,11 +115,14 @@ Include dependency graph for components.d:</div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcomponents_1_1_tile_position.html">components::TilePosition</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Position in tile-based grid system.  <a href="structcomponents_1_1_tile_position.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcomponents_1_1_component.html">components::Component</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Base class for component system.  <a href="classcomponents_1_1_component.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcomponents_1_1_script_component.html">components::ScriptComponent</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classcomponents_1_1_component.html" title="Base class for component system.">Component</a> that can contain and manage scripts.  <a href="classcomponents_1_1_script_component.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcomponents_1_1_flashing_text_component.html">components::FlashingTextComponent</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classcomponents_1_1_component.html" title="Base class for component system.">Component</a> for the flashing "Press Start" text.  <a href="classcomponents_1_1_flashing_text_component.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcomponents_1_1_base_render_component.html">components::BaseRenderComponent</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Base component for rendering animated sprites.  <a href="classcomponents_1_1_base_render_component.html#details">More...</a><br /></td></tr>
@@ -135,6 +139,12 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcomponents_1_1_grid_input_component.html">components::GridInputComponent</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Processes keyboard input for grid movement.  <a href="classcomponents_1_1_grid_input_component.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcomponents_1_1_script.html">components::Script</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Base class for script-based behaviors.  <a href="classcomponents_1_1_script.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcomponents_1_1_pokemon_movement_script.html">components::PokemonMovementScript</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classcomponents_1_1_script.html" title="Base class for script-based behaviors.">Script</a> controlling Pokemon back-and-forth movement.  <a href="classcomponents_1_1_pokemon_movement_script.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcomponents_1_1_pokemon_input_component.html">components::PokemonInputComponent</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Autonomous movement for Pokemon.  <a href="classcomponents_1_1_pokemon_input_component.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -146,6 +156,18 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcomponents_1_1_collision_box.html">components::CollisionBox</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Represents a collision box for battle triggers.  <a href="structcomponents_1_1_collision_box.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcomponents_1_1_dialogue_unit.html">components::DialogueUnit</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Represents a dialogue unit with text and speaker.  <a href="structcomponents_1_1_dialogue_unit.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcomponents_1_1_choice.html">components::Choice</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Represents a dialogue choice with text and next dialogue ID.  <a href="structcomponents_1_1_choice.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcomponents_1_1_dialogue_box_component.html">components::DialogueBoxComponent</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Manages and renders dialogue in a visual novel style text box.  <a href="classcomponents_1_1_dialogue_box_component.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcomponents_1_1_talk_trigger_component.html">components::TalkTriggerComponent</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classcomponents_1_1_component.html" title="Base class for component system.">Component</a> that triggers a "talk" overlay when interacted with.  <a href="classcomponents_1_1_talk_trigger_component.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcomponents_1_1_battle_trigger_component.html">components::BattleTriggerComponent</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classcomponents_1_1_component.html" title="Base class for component system.">Component</a> that triggers battles on collision.  <a href="classcomponents_1_1_battle_trigger_component.html#details">More...</a><br /></td></tr>
@@ -182,17 +204,6 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a2cfccf0b5d064cb623873e6640931ef1" id="r_a2cfccf0b5d064cb623873e6640931ef1"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecomponents.html#a2cfccf0b5d064cb623873e6640931ef1">components::Direction</a> { <br />
-&#160;&#160;<a class="el" href="namespacecomponents.html#a2cfccf0b5d064cb623873e6640931ef1a962d11290f0a9cce8a8c1459c6659c7d">components::None</a>
-, <a class="el" href="namespacecomponents.html#a2cfccf0b5d064cb623873e6640931ef1aa925f2181c7571afa0b42f196db789c4">components::Up</a>
-, <a class="el" href="namespacecomponents.html#a2cfccf0b5d064cb623873e6640931ef1a2486b32ddc061a9018129bdfb6767f2f">components::Down</a>
-, <a class="el" href="namespacecomponents.html#a2cfccf0b5d064cb623873e6640931ef1a0b453eeb549a81e6dad3e48c0580be9a">components::Left</a>
-, <br />
-&#160;&#160;<a class="el" href="namespacecomponents.html#a2cfccf0b5d064cb623873e6640931ef1a98ff238436150136daa8496fae6301c6">components::Right</a>
-<br />
- }</td></tr>
-<tr class="memdesc:a2cfccf0b5d064cb623873e6640931ef1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cardinal directions for grid movement.  <a href="namespacecomponents.html#a2cfccf0b5d064cb623873e6640931ef1">More...</a><br /></td></tr>
-<tr class="separator:a2cfccf0b5d064cb623873e6640931ef1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add9c6b7dbd3af0d170a4c34fc381eca5" id="r_add9c6b7dbd3af0d170a4c34fc381eca5"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecomponents.html#add9c6b7dbd3af0d170a4c34fc381eca5">components::ProjectileType</a> { <a class="el" href="namespacecomponents.html#add9c6b7dbd3af0d170a4c34fc381eca5a08d55d60140018b2b12d7790fe9236fd">components::Player</a>
 , <a class="el" href="namespacecomponents.html#add9c6b7dbd3af0d170a4c34fc381eca5ad6a3d31963adb9a44d3e2775336abdc1">components::Enemy</a>
  }</td></tr>
@@ -207,12 +218,17 @@ Functions</h2></td></tr>
 <tr class="separator:aa9d21000df25f7d4ac0d8811b805e8d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6f0bc36671f8a73204ba9fae241b4152" id="r_a6f0bc36671f8a73204ba9fae241b4152"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecomponents.html#a6f0bc36671f8a73204ba9fae241b4152">components::displayPokemonInfo</a> (GameObject pokemon)</td></tr>
 <tr class="separator:a6f0bc36671f8a73204ba9fae241b4152"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2d98aceb22228a509a8de9f5ad965a80" id="r_a2d98aceb22228a509a8de9f5ad965a80"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecomponents.html#a2d98aceb22228a509a8de9f5ad965a80">components::RenderText</a> (SDL_Renderer *renderer, string text, int x, int y, int fontSize=24)</td></tr>
+<tr class="memitem:a2d98aceb22228a509a8de9f5ad965a80" id="r_a2d98aceb22228a509a8de9f5ad965a80"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecomponents.html#a2d98aceb22228a509a8de9f5ad965a80">components::RenderText</a> (SDL_Renderer *renderer, string text, int x, int <a class="el" href="namespacecomponents.html#ad8a8f41d5d6b81510e758c44f8101b51">y</a>, int fontSize=24)</td></tr>
 <tr class="memdesc:a2d98aceb22228a509a8de9f5ad965a80"><td class="mdescLeft">&#160;</td><td class="mdescRight">Renders text on the screen.  <br /></td></tr>
 <tr class="separator:a2d98aceb22228a509a8de9f5ad965a80"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2581001d3d34dd234cc2bd2efd36cc48" id="r_a2581001d3d34dd234cc2bd2efd36cc48"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecomponents.html#a2581001d3d34dd234cc2bd2efd36cc48">components::AttackAnimation_Shake</a> (SDL_Renderer *renderer, GameObject pokemon, ref int currentFrame, int originalX, GameObject enemy)</td></tr>
 <tr class="memdesc:a2581001d3d34dd234cc2bd2efd36cc48"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs a shaking attack animation for a Pokémon.  <br /></td></tr>
 <tr class="separator:a2581001d3d34dd234cc2bd2efd36cc48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:ad8a8f41d5d6b81510e758c44f8101b51" id="r_ad8a8f41d5d6b81510e758c44f8101b51"><td class="memItemLeft" align="right" valign="top">this.&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecomponents.html#ad8a8f41d5d6b81510e758c44f8101b51">components::y</a> = y</td></tr>
+<tr class="separator:ad8a8f41d5d6b81510e758c44f8101b51"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Core component system and battle mechanics implementation. </p>

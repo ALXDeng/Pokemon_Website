@@ -1,0 +1,5 @@
+<map id="components::DialogueBoxComponent" name="components::DialogueBoxComponent">
+<area shape="rect" id="Node000001" title="Manages and renders dialogue in a visual novel style text box." alt="" coords="5,160,236,328"/>
+<area shape="rect" id="Node000002" href="$classcomponents_1_1_component.html" title="Base class for component system." alt="" coords="42,5,199,112"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="123,127,123,161,118,161,118,127"/>
+</map>

@@ -1,5 +1,5 @@
 <map id="components::GridMovementComponent" name="components::GridMovementComponent">
-<area shape="rect" id="Node000001" title="Handles grid&#45;based movement with smooth interpolation." alt="" coords="5,140,180,303"/>
-<area shape="rect" id="Node000002" href="$classcomponents_1_1_component.html" title="Base class for component system." alt="" coords="14,5,171,92"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="95,107,95,140,90,140,90,107"/>
+<area shape="rect" id="Node000001" title="Handles grid&#45;based movement with smooth interpolation." alt="" coords="5,160,180,343"/>
+<area shape="rect" id="Node000002" href="$classcomponents_1_1_component.html" title="Base class for component system." alt="" coords="14,5,171,112"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="95,127,95,160,90,160,90,127"/>
 </map>

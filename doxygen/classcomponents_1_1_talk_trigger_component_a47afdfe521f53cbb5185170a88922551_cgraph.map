@@ -1,0 +1,5 @@
+<map id="components::TalkTriggerComponent::checkCollision" name="components::TalkTriggerComponent::checkCollision">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,237,46"/>
+<area shape="rect" id="Node000002" href="$structcomponents_1_1_collision_box.html#a4e0917d9334c2e17a2a521df2ea8e2f5" title="Checks intersection with another collision box." alt="" coords="285,5,458,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="237,23,269,23,269,28,237,28"/>
+</map>

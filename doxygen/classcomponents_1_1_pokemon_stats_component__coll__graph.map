@@ -1,5 +1,5 @@
 <map id="components::PokemonStatsComponent" name="components::PokemonStatsComponent">
-<area shape="rect" id="Node000001" title="Manages Pokemon stats and state." alt="" coords="5,140,181,343"/>
-<area shape="rect" id="Node000002" href="$classcomponents_1_1_component.html" title="Base class for component system." alt="" coords="15,5,172,92"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="96,107,96,140,90,140,90,107"/>
+<area shape="rect" id="Node000001" title="Manages Pokemon stats and state." alt="" coords="5,160,181,364"/>
+<area shape="rect" id="Node000002" href="$classcomponents_1_1_component.html" title="Base class for component system." alt="" coords="15,5,172,112"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="96,127,96,161,90,161,90,127"/>
 </map>

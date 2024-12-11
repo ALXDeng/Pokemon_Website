@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['direction_0',['Direction',['../namespacecomponents.html#a2cfccf0b5d064cb623873e6640931ef1',1,'components']]]
+  ['projectiletype_0',['ProjectileType',['../namespacecomponents.html#add9c6b7dbd3af0d170a4c34fc381eca5',1,'components']]]
 ];

@@ -1,0 +1,5 @@
+<map id="components::TalkTriggerComponent::talk" name="components::TalkTriggerComponent::talk">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,237,46"/>
+<area shape="rect" id="Node000002" href="$classcomponents_1_1_dialogue_box_component.html#ac193610906bace5404cc7eb287a8c44a" title=" " alt="" coords="285,5,526,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="237,23,269,23,269,28,237,28"/>
+</map>

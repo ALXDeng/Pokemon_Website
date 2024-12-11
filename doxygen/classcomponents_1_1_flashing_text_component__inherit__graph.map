@@ -1,0 +1,5 @@
+<map id="components::FlashingTextComponent" name="components::FlashingTextComponent">
+<area shape="rect" id="Node000001" title="Component for the flashing &quot;Press Start&quot; text." alt="" coords="5,160,169,282"/>
+<area shape="rect" id="Node000002" href="$classcomponents_1_1_component.html" title="Base class for component system." alt="" coords="9,5,166,112"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="90,127,90,161,84,161,84,127"/>
+</map>

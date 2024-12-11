@@ -1,0 +1,5 @@
+<map id="components::Script" name="components::Script">
+<area shape="rect" id="Node000001" title="Base class for script&#45;based behaviors." alt="" coords="46,5,170,112"/>
+<area shape="rect" id="Node000002" href="$classcomponents_1_1_pokemon_movement_script.html" title="Script controlling Pokemon back&#45;and&#45;forth movement." alt="" coords="5,160,211,282"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="111,127,111,161,106,161,106,127"/>
+</map>

@@ -1,5 +1,5 @@
 <map id="components::BattleTriggerComponent" name="components::BattleTriggerComponent">
-<area shape="rect" id="Node000001" title="Component that triggers battles on collision." alt="" coords="5,140,169,323"/>
-<area shape="rect" id="Node000002" href="$classcomponents_1_1_component.html" title="Base class for component system." alt="" coords="9,5,166,92"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="90,107,90,140,84,140,84,107"/>
+<area shape="rect" id="Node000001" title="Component that triggers battles on collision." alt="" coords="5,160,169,343"/>
+<area shape="rect" id="Node000002" href="$classcomponents_1_1_component.html" title="Base class for component system." alt="" coords="9,5,166,112"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="90,127,90,160,84,160,84,127"/>
 </map>

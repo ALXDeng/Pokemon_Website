@@ -1,5 +1,5 @@
 <map id="components::PokemonInputComponent" name="components::PokemonInputComponent">
-<area shape="rect" id="Node000001" title="Autonomous movement for Pokemon." alt="" coords="5,140,179,242"/>
-<area shape="rect" id="Node000002" href="$classcomponents_1_1_component.html" title="Base class for component system." alt="" coords="14,5,170,92"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="95,107,95,140,90,140,90,107"/>
+<area shape="rect" id="Node000001" title="Autonomous movement for Pokemon." alt="" coords="5,160,179,262"/>
+<area shape="rect" id="Node000002" href="$classcomponents_1_1_component.html" title="Base class for component system." alt="" coords="14,5,170,112"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="95,127,95,161,90,161,90,127"/>
 </map>

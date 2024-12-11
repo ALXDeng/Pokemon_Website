@@ -1,0 +1,5 @@
+<map id="components::DialogueUnit" name="components::DialogueUnit">
+<area shape="rect" id="Node000001" title="Represents a dialogue unit with text and speaker." alt="" coords="5,155,170,282"/>
+<area shape="rect" id="Node000002" href="$structcomponents_1_1_choice.html" title="Represents a dialogue choice with text and next dialogue ID." alt="" coords="22,5,153,92"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="90,92,90,138,85,138,85,92"/>
+</map>

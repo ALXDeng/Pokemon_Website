@@ -1,9 +1,9 @@
 <map id="components::BattleMenuOptions" name="components::BattleMenuOptions">
-<area shape="rect" id="Node000001" title="A component managing battle menu options such as &quot;Fight&quot; and &quot;Run.&quot;." alt="" coords="150,170,351,318"/>
-<area shape="rect" id="Node000002" href="$classcomponents_1_1_component.html" title="Base class for component system." alt="" coords="5,5,162,92"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="131,101,190,168,186,172,127,105"/>
-<area shape="rect" id="Node000003" href="$structcomponents_1_1_button.html" title="A UI button with a label, position, and click callback." alt="" coords="186,5,314,92"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="253,92,253,153,248,153,248,92"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="343,16,368,82"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="352,82,343,114,329,147,323,157,319,154,324,145,337,112,347,81"/>
+<area shape="rect" id="Node000001" title="A component managing battle menu options such as &quot;Fight&quot; and &quot;Run.&quot;." alt="" coords="150,190,351,338"/>
+<area shape="rect" id="Node000002" href="$classcomponents_1_1_component.html" title="Base class for component system." alt="" coords="5,5,162,112"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="138,122,193,189,189,192,134,125"/>
+<area shape="rect" id="Node000003" href="$structcomponents_1_1_button.html" title="A UI button with a label, position, and click callback." alt="" coords="186,16,314,102"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="253,102,253,173,248,173,248,102"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="343,26,368,92"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="353,92,344,129,329,167,324,177,319,175,324,165,339,127,348,91"/>
 </map>

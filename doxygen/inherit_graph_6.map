@@ -1,3 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$classresourcemanager_1_1_resource_manager.html" title="Singleton resource manager class handling all game assets." alt="" coords="5,5,191,46"/>
+<area shape="rect" id="Node000000" href="$classcomponents_1_1_script.html" title="Base class for script&#45;based behaviors." alt="" coords="5,13,140,38"/>
+<area shape="rect" id="Node000001" href="$classcomponents_1_1_pokemon_movement_script.html" title="Script controlling Pokemon back&#45;and&#45;forth movement." alt="" coords="188,5,404,46"/>
+<area shape="poly" id="edge20_Node000000_Node000001" title=" " alt="" coords="155,23,187,23,187,28,155,28"/>
 </map>

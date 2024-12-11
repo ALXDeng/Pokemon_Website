@@ -2,6 +2,6 @@
 <area shape="rect" id="Node000001" title="Attempts movement in specified direction." alt="" coords="274,39,459,79"/>
 <area shape="rect" id="Node000002" href="$classcomponents_1_1_grid_input_component.html#a74c94e4991ee6705bf5f43c7905a5258" title=" " alt="" coords="5,5,226,46"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="258,47,226,43,227,38,259,42"/>
-<area shape="rect" id="Node000003" href="$classcomponents_1_1_pokemon_input_component.html#af7ca9ea3b01402d6425654976d78cece" title=" " alt="" coords="23,71,208,111"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="258,75,209,82,208,77,258,70"/>
+<area shape="rect" id="Node000003" href="$classcomponents_1_1_pokemon_movement_script.html#a47dccbe431977c166d19cf2fcecf785e" title=" " alt="" coords="7,71,224,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="258,75,224,80,224,75,258,70"/>
 </map>
