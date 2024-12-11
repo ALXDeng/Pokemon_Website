@@ -1,5 +1,5 @@
 <map id="soundsystem::SoundSystem::Initialize" name="soundsystem::SoundSystem::Initialize">
-<area shape="rect" id="Node000001" title=" " alt="" coords="243,5,432,46"/>
-<area shape="rect" id="Node000002" href="$classsoundsystem_1_1_sound_system.html#a7539325a19e3b88a11d24a6b9e3aaa78" title=" " alt="" coords="5,5,195,46"/>
+<area shape="rect" id="Node000001" title="Initializes SDL_mixer and audio system." alt="" coords="243,5,432,46"/>
+<area shape="rect" id="Node000002" href="$classsoundsystem_1_1_sound_system.html#a7539325a19e3b88a11d24a6b9e3aaa78" title="Gets singleton instance." alt="" coords="5,5,195,46"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="227,28,195,28,195,23,227,23"/>
 </map>

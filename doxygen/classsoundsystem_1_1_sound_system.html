@@ -97,12 +97,15 @@ $(function(){ initResizable(false); });
   <div class="headertitle"><div class="title">soundsystem::SoundSystem Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Singleton sound system manager.  
+ <a href="#details">More...</a></p>
 <div class="dynheader">
 Collaboration diagram for soundsystem::SoundSystem:</div>
 <div class="dyncontent">
 <div class="center"><img src="classsoundsystem_1_1_sound_system__coll__graph.png" border="0" usemap="#asoundsystem_1_1_sound_system_coll__map" alt="Collaboration graph"/></div>
 <map name="asoundsystem_1_1_sound_system_coll__map" id="asoundsystem_1_1_sound_system_coll__map">
-<area shape="rect" title=" " alt="" coords="5,135,184,343"/>
+<area shape="rect" title="Singleton sound system manager." alt="" coords="5,135,184,343"/>
 <area shape="rect" title=" " alt="" coords="82,5,107,72"/>
 <area shape="poly" title=" " alt="" coords="97,72,97,118,92,118,92,72"/>
 </map>
@@ -111,31 +114,43 @@ Collaboration diagram for soundsystem::SoundSystem:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a3fe8dbd721443d4fa448b35edf0e35bf" id="r_a3fe8dbd721443d4fa448b35edf0e35bf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3fe8dbd721443d4fa448b35edf0e35bf">cleanup</a> ()</td></tr>
+<tr class="memdesc:a3fe8dbd721443d4fa448b35edf0e35bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cleans up sound system resources.  <br /></td></tr>
 <tr class="separator:a3fe8dbd721443d4fa448b35edf0e35bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aec2697c512814189754acf500cabcd22" id="r_aec2697c512814189754acf500cabcd22"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec2697c512814189754acf500cabcd22">Initialize</a> ()</td></tr>
+<tr class="memdesc:aec2697c512814189754acf500cabcd22"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes SDL_mixer and audio system.  <br /></td></tr>
 <tr class="separator:aec2697c512814189754acf500cabcd22"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae03f34e8b44886bb54575badb36c3f16" id="r_ae03f34e8b44886bb54575badb36c3f16"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae03f34e8b44886bb54575badb36c3f16">addSound</a> (string filePath, string name)</td></tr>
+<tr class="memdesc:ae03f34e8b44886bb54575badb36c3f16"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads and caches a sound effect.  <br /></td></tr>
 <tr class="separator:ae03f34e8b44886bb54575badb36c3f16"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a29e712b56d0ff6ad207d5af568366cca" id="r_a29e712b56d0ff6ad207d5af568366cca"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a29e712b56d0ff6ad207d5af568366cca">Play</a> (string name, float volume=1, int loops=0)</td></tr>
+<tr class="memdesc:a29e712b56d0ff6ad207d5af568366cca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Plays a cached sound.  <br /></td></tr>
 <tr class="separator:a29e712b56d0ff6ad207d5af568366cca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a09fbb96d24b797b540f97fa94534f404" id="r_a09fbb96d24b797b540f97fa94534f404"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a09fbb96d24b797b540f97fa94534f404">Stop</a> (string name)</td></tr>
+<tr class="memdesc:a09fbb96d24b797b540f97fa94534f404"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stops playing a specific sound.  <br /></td></tr>
 <tr class="separator:a09fbb96d24b797b540f97fa94534f404"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1bdc8e53cc8198117f5a678c26861705" id="r_a1bdc8e53cc8198117f5a678c26861705"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1bdc8e53cc8198117f5a678c26861705">StopAll</a> ()</td></tr>
+<tr class="memdesc:a1bdc8e53cc8198117f5a678c26861705"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stops all currently playing sounds.  <br /></td></tr>
 <tr class="separator:a1bdc8e53cc8198117f5a678c26861705"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aee7c3a95ba9039fb7a4f2e491cc2db3c" id="r_aee7c3a95ba9039fb7a4f2e491cc2db3c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aee7c3a95ba9039fb7a4f2e491cc2db3c">~this</a> ()</td></tr>
+<tr class="memdesc:aee7c3a95ba9039fb7a4f2e491cc2db3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor - cleans up SDL_mixer.  <br /></td></tr>
 <tr class="separator:aee7c3a95ba9039fb7a4f2e491cc2db3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a7539325a19e3b88a11d24a6b9e3aaa78" id="r_a7539325a19e3b88a11d24a6b9e3aaa78"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classsoundsystem_1_1_sound_system.html">SoundSystem</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7539325a19e3b88a11d24a6b9e3aaa78">getInstance</a> ()</td></tr>
+<tr class="memdesc:a7539325a19e3b88a11d24a6b9e3aaa78"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets singleton instance.  <br /></td></tr>
 <tr class="separator:a7539325a19e3b88a11d24a6b9e3aaa78"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:aafd274a7a0408eea23d7abba626cfe98" id="r_aafd274a7a0408eea23d7abba626cfe98"><td class="memItemLeft" align="right" valign="top">int[string]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aafd274a7a0408eea23d7abba626cfe98">soundChannels</a></td></tr>
+<tr class="memdesc:aafd274a7a0408eea23d7abba626cfe98"><td class="mdescLeft">&#160;</td><td class="mdescRight">Active sound channels.  <br /></td></tr>
 <tr class="separator:aafd274a7a0408eea23d7abba626cfe98"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Singleton sound system manager. </p>
+<p>Handles loading and playing sound effects using SDL_mixer. Manages sound resources and channels. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aee7c3a95ba9039fb7a4f2e491cc2db3c" name="aee7c3a95ba9039fb7a4f2e491cc2db3c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aee7c3a95ba9039fb7a4f2e491cc2db3c">&#9670;&#160;</a></span>~this()</h2>
 
@@ -158,6 +173,8 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Destructor - cleans up SDL_mixer. </p>
 
 </div>
 </div>
@@ -189,6 +206,15 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Loads and caches a sound effect. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">filePath</td><td>Path to sound file </td></tr>
+    <tr><td class="paramname">name</td><td>Identifier for the sound </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="a3fe8dbd721443d4fa448b35edf0e35bf" name="a3fe8dbd721443d4fa448b35edf0e35bf"></a>
@@ -213,13 +239,15 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Cleans up sound system resources. </p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classsoundsystem_1_1_sound_system_a3fe8dbd721443d4fa448b35edf0e35bf_icgraph.png" border="0" usemap="#aclasssoundsystem_1_1_sound_system_a3fe8dbd721443d4fa448b35edf0e35bf_icgraph" alt=""/></div>
 <map name="aclasssoundsystem_1_1_sound_system_a3fe8dbd721443d4fa448b35edf0e35bf_icgraph" id="aclasssoundsystem_1_1_sound_system_a3fe8dbd721443d4fa448b35edf0e35bf_icgraph">
-<area shape="rect" title=" " alt="" coords="243,5,432,46"/>
-<area shape="rect" href="classsoundsystem_1_1_sound_system.html#a7539325a19e3b88a11d24a6b9e3aaa78" title=" " alt="" coords="5,5,195,46"/>
+<area shape="rect" title="Cleans up sound system resources." alt="" coords="243,5,432,46"/>
+<area shape="rect" href="classsoundsystem_1_1_sound_system.html#a7539325a19e3b88a11d24a6b9e3aaa78" title="Gets singleton instance." alt="" coords="5,5,195,46"/>
 <area shape="poly" title=" " alt="" coords="227,28,195,28,195,23,227,23"/>
 </map>
 </div>
@@ -248,15 +276,18 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Gets singleton instance. </p>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="classsoundsystem_1_1_sound_system.html" title="Singleton sound system manager.">SoundSystem</a> instance or null if initialization fails </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classsoundsystem_1_1_sound_system_a7539325a19e3b88a11d24a6b9e3aaa78_cgraph.png" border="0" usemap="#aclasssoundsystem_1_1_sound_system_a7539325a19e3b88a11d24a6b9e3aaa78_cgraph" alt=""/></div>
 <map name="aclasssoundsystem_1_1_sound_system_a7539325a19e3b88a11d24a6b9e3aaa78_cgraph" id="aclasssoundsystem_1_1_sound_system_a7539325a19e3b88a11d24a6b9e3aaa78_cgraph">
-<area shape="rect" title=" " alt="" coords="5,39,195,79"/>
-<area shape="rect" href="classsoundsystem_1_1_sound_system.html#a3fe8dbd721443d4fa448b35edf0e35bf" title=" " alt="" coords="243,5,432,46"/>
+<area shape="rect" title="Gets singleton instance." alt="" coords="5,39,195,79"/>
+<area shape="rect" href="classsoundsystem_1_1_sound_system.html#a3fe8dbd721443d4fa448b35edf0e35bf" title="Cleans up sound system resources." alt="" coords="243,5,432,46"/>
 <area shape="poly" title=" " alt="" coords="195,43,227,39,227,44,195,48"/>
-<area shape="rect" href="classsoundsystem_1_1_sound_system.html#aec2697c512814189754acf500cabcd22" title=" " alt="" coords="243,71,432,111"/>
+<area shape="rect" href="classsoundsystem_1_1_sound_system.html#aec2697c512814189754acf500cabcd22" title="Initializes SDL_mixer and audio system." alt="" coords="243,71,432,111"/>
 <area shape="poly" title=" " alt="" coords="195,69,227,73,227,79,195,74"/>
 </map>
 </div>
@@ -285,13 +316,16 @@ Here is the call graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Initializes SDL_mixer and audio system. </p>
+<dl class="section return"><dt>Returns</dt><dd>true if initialization successful </dd></dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classsoundsystem_1_1_sound_system_aec2697c512814189754acf500cabcd22_icgraph.png" border="0" usemap="#aclasssoundsystem_1_1_sound_system_aec2697c512814189754acf500cabcd22_icgraph" alt=""/></div>
 <map name="aclasssoundsystem_1_1_sound_system_aec2697c512814189754acf500cabcd22_icgraph" id="aclasssoundsystem_1_1_sound_system_aec2697c512814189754acf500cabcd22_icgraph">
-<area shape="rect" title=" " alt="" coords="243,5,432,46"/>
-<area shape="rect" href="classsoundsystem_1_1_sound_system.html#a7539325a19e3b88a11d24a6b9e3aaa78" title=" " alt="" coords="5,5,195,46"/>
+<area shape="rect" title="Initializes SDL_mixer and audio system." alt="" coords="243,5,432,46"/>
+<area shape="rect" href="classsoundsystem_1_1_sound_system.html#a7539325a19e3b88a11d24a6b9e3aaa78" title="Gets singleton instance." alt="" coords="5,5,195,46"/>
 <area shape="poly" title=" " alt="" coords="227,28,195,28,195,23,227,23"/>
 </map>
 </div>
@@ -330,6 +364,16 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
+<p>Plays a cached sound. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td>Sound identifier </td></tr>
+    <tr><td class="paramname">volume</td><td>Volume level (0.0 to 1.0) </td></tr>
+    <tr><td class="paramname">loops</td><td>Number of times to loop (-1 for infinite) </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="a09fbb96d24b797b540f97fa94534f404" name="a09fbb96d24b797b540f97fa94534f404"></a>
@@ -354,6 +398,14 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Stops playing a specific sound. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td>Sound identifier to stop </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -380,6 +432,8 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
+<p>Stops all currently playing sounds. </p>
+
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -394,6 +448,8 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Active sound channels. </p>
 
 </div>
 </div>

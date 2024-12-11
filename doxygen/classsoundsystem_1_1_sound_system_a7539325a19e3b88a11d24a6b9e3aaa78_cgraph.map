@@ -1,7 +1,7 @@
 <map id="soundsystem::SoundSystem::getInstance" name="soundsystem::SoundSystem::getInstance">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,39,195,79"/>
-<area shape="rect" id="Node000002" href="$classsoundsystem_1_1_sound_system.html#a3fe8dbd721443d4fa448b35edf0e35bf" title=" " alt="" coords="243,5,432,46"/>
+<area shape="rect" id="Node000001" title="Gets singleton instance." alt="" coords="5,39,195,79"/>
+<area shape="rect" id="Node000002" href="$classsoundsystem_1_1_sound_system.html#a3fe8dbd721443d4fa448b35edf0e35bf" title="Cleans up sound system resources." alt="" coords="243,5,432,46"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="195,43,227,39,227,44,195,48"/>
-<area shape="rect" id="Node000003" href="$classsoundsystem_1_1_sound_system.html#aec2697c512814189754acf500cabcd22" title=" " alt="" coords="243,71,432,111"/>
+<area shape="rect" id="Node000003" href="$classsoundsystem_1_1_sound_system.html#aec2697c512814189754acf500cabcd22" title="Initializes SDL_mixer and audio system." alt="" coords="243,71,432,111"/>
 <area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="195,69,227,73,227,79,195,74"/>
 </map>
