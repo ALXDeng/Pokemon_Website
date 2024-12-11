@@ -1,0 +1,7 @@
+<map id="gameapplication::handleInput" name="gameapplication::handleInput">
+<area shape="rect" id="Node000001" title="Processes all input events Handles global inputs and delegates to scene&#45;specific handlers." alt="" coords="229,29,419,55"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="364,17,351,10,324,8,299,10,286,15,283,20,290,27,286,31,278,21,283,11,298,5,324,3,352,5,366,12"/>
+<area shape="rect" id="Node000002" href="$namespacegameapplication.html#a019825c5154b4ae1db1b403c6d596d04" title="Main game loop Handles timing, updates, rendering, and FPS limiting." alt="" coords="5,29,181,55"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="213,45,181,45,181,40,213,40"/>
+<area shape="poly" id="edge3_Node000002_Node000002" title=" " alt="" coords="133,17,120,10,93,8,69,10,55,15,52,20,59,27,55,31,47,21,52,11,67,5,93,3,121,5,136,12"/>
+</map>

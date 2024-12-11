@@ -1,0 +1,7 @@
+<map id="gameapplication::Render" name="gameapplication::Render">
+<area shape="rect" id="Node000001" title="Renders current game frame." alt="" coords="229,29,394,55"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="349,17,337,10,311,8,288,10,276,15,273,20,279,27,275,31,268,21,272,11,287,5,311,3,338,5,352,12"/>
+<area shape="rect" id="Node000002" href="$namespacegameapplication.html#a019825c5154b4ae1db1b403c6d596d04" title="Main game loop Handles timing, updates, rendering, and FPS limiting." alt="" coords="5,29,181,55"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="213,45,181,45,181,40,213,40"/>
+<area shape="poly" id="edge3_Node000002_Node000002" title=" " alt="" coords="131,17,118,10,93,8,70,10,58,15,55,20,61,27,57,31,50,21,54,11,69,5,93,3,120,5,133,12"/>
+</map>

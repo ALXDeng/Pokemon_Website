@@ -1,0 +1,7 @@
+<map id="components::getPokemonStats" name="components::getPokemonStats">
+<area shape="rect" id="Node000001" title=" " alt="" coords="272,29,476,55"/>
+<area shape="poly" id="edge3_Node000001_Node000001" title=" " alt="" coords="420,17,405,11,374,8,346,10,331,15,328,20,335,27,331,31,323,21,328,11,345,5,374,3,406,5,422,13"/>
+<area shape="rect" id="Node000002" href="$namespacecomponents.html#a6f0bc36671f8a73204ba9fae241b4152" title=" " alt="" coords="5,29,224,55"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="256,45,224,45,224,40,256,40"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="160,17,145,11,114,8,87,10,72,15,69,20,76,27,72,31,63,21,68,11,86,5,115,3,147,5,163,13"/>
+</map>

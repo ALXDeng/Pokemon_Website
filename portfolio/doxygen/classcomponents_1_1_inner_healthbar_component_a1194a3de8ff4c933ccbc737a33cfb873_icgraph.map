@@ -1,0 +1,5 @@
+<map id="components::InnerHealthbarComponent::applyDamage" name="components::InnerHealthbarComponent::applyDamage">
+<area shape="rect" id="Node000001" title="Applies damage and updates health bar." alt="" coords="265,5,450,46"/>
+<area shape="rect" id="Node000002" href="$classcomponents_1_1_battle_menu_options.html#a5dbdd48b8c866279463d5010f2576f10" title=" " alt="" coords="5,5,217,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="249,28,217,28,217,23,249,23"/>
+</map>

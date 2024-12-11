@@ -1,0 +1,7 @@
+<map id="animation::update" name="animation::update">
+<area shape="rect" id="Node000001" title="Updates animation state based on elapsed time." alt="" coords="5,29,130,55"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="33,31,26,21,30,11,44,5,68,3,93,5,106,12,103,17,91,10,67,8,46,10,34,15,31,20,37,27"/>
+<area shape="rect" id="Node000002" href="$namespaceanimation.html#a9d145c87f9c3ea52e5b5646702d54a21" title="Updates the source rectangle for the current frame." alt="" coords="178,29,371,55"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="130,40,162,40,162,45,130,45"/>
+<area shape="poly" id="edge3_Node000002_Node000002" title=" " alt="" coords="240,31,233,21,237,11,251,5,274,3,300,5,313,12,310,17,298,10,274,8,253,10,241,15,238,20,244,27"/>
+</map>

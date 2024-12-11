@@ -1,0 +1,5 @@
+<map id="components::CollisionBox::intersects" name="components::CollisionBox::intersects">
+<area shape="rect" id="Node000001" title="Checks intersection with another collision box." alt="" coords="235,5,408,46"/>
+<area shape="rect" id="Node000002" href="$classcomponents_1_1_battle_trigger_component.html#ae44d5f50ed658f3156756caabae8fd34" title="Checks for collision with player." alt="" coords="5,5,187,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="219,28,187,28,187,23,219,23"/>
+</map>

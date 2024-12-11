@@ -1,0 +1,3 @@
+<map id="components::Button" name="components::Button">
+<area shape="rect" id="Node000001" title="A UI button with a label, position, and click callback." alt="" coords="5,5,133,92"/>
+</map>

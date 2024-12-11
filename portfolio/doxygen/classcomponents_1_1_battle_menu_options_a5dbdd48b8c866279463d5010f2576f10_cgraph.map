@@ -1,0 +1,13 @@
+<map id="components::BattleMenuOptions::render" name="components::BattleMenuOptions::render">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,95,217,135"/>
+<area shape="rect" id="Node000002" href="$classcomponents_1_1_inner_healthbar_component.html#a1194a3de8ff4c933ccbc737a33cfb873" title="Applies damage and updates health bar." alt="" coords="270,5,456,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="167,92,264,56,285,49,286,54,266,62,169,97"/>
+<area shape="rect" id="Node000003" href="$namespacecomponents.html#a2581001d3d34dd234cc2bd2efd36cc48" title="Performs a shaking attack animation for a Pokémon." alt="" coords="265,95,461,135"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="217,112,249,112,249,118,217,118"/>
+<area shape="rect" id="Node000005" href="$namespacecomponents.html#a2d98aceb22228a509a8de9f5ad965a80" title="Renders text on the screen." alt="" coords="279,184,446,209"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="177,133,307,176,305,181,176,138"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="317,95,315,85,322,76,338,70,363,68,389,70,405,77,403,82,388,76,363,73,339,75,325,80,320,86,322,93"/>
+<area shape="rect" id="Node000004" href="$classcomponents_1_1_pokemon_render_component.html#abda4946ff95ba09836ee24e372acc387" title=" " alt="" coords="509,95,706,135"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="462,112,494,112,494,118,462,118"/>
+<area shape="poly" id="edge6_Node000005_Node000005" title=" " alt="" coords="322,185,314,175,319,165,336,159,363,157,393,160,408,167,406,172,392,165,363,162,337,164,323,169,320,174,327,181"/>
+</map>

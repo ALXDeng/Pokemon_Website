@@ -1,0 +1,5 @@
+<map id="components::BattleMenuOptions" name="components::BattleMenuOptions">
+<area shape="rect" id="Node000001" title="A component managing battle menu options such as &quot;Fight&quot; and &quot;Run.&quot;." alt="" coords="5,140,206,328"/>
+<area shape="rect" id="Node000002" href="$classcomponents_1_1_component.html" title="Base class for component system." alt="" coords="27,5,184,92"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="108,107,108,140,103,140,103,107"/>
+</map>

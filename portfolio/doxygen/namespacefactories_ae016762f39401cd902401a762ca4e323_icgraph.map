@@ -1,0 +1,7 @@
+<map id="factories::createEntity" name="factories::createEntity">
+<area shape="rect" id="Node000001" title="Creates a static entity game object (like walls, grass, etc.)" alt="" coords="228,29,377,55"/>
+<area shape="poly" id="edge3_Node000001_Node000001" title=" " alt="" coords="339,17,327,10,302,8,280,10,268,15,266,20,272,27,267,31,260,21,265,11,279,5,302,3,328,5,341,12"/>
+<area shape="rect" id="Node000002" href="$namespacefactories.html#a63fe756fb7f219d8466b54c6c41a3802" title="Creates all static entities from map and configuration data." alt="" coords="5,29,180,55"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="212,45,180,45,180,40,212,40"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="129,17,117,10,92,8,70,10,58,15,56,20,62,27,58,31,51,21,55,11,69,5,93,3,118,5,131,12"/>
+</map>

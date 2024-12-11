@@ -1,0 +1,17 @@
+<map id="components::BaseRenderComponent" name="components::BaseRenderComponent">
+<area shape="rect" id="Node000001" title="Base component for rendering animated sprites." alt="" coords="591,140,820,308"/>
+<area shape="rect" id="Node000003" href="$classcomponents_1_1_arrow_render_component.html" title="Component for health bar arrows indicating battle state." alt="" coords="5,374,238,460"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="578,259,421,303,252,359,209,376,207,371,250,353,419,298,576,254"/>
+<area shape="rect" id="Node000004" href="$classcomponents_1_1_healthbar_render_component.html" title="UI component for rendering health bars." alt="" coords="262,376,450,458"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="580,295,463,358,426,379,423,374,460,354,577,290"/>
+<area shape="rect" id="Node000005" href="$classcomponents_1_1_menu_render_component.html" title="Menu background render component." alt="" coords="474,384,705,450"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="650,322,611,386,607,383,645,319"/>
+<area shape="rect" id="Node000006" href="$classcomponents_1_1_pokemon_render_component.html" title="Pokemon&#45;specific render component with visibility control." alt="" coords="730,356,916,478"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="767,319,789,355,784,358,762,322"/>
+<area shape="rect" id="Node000007" href="$classcomponents_1_1_render_component.html" title="Standard render component for animated objects." alt="" coords="941,384,1140,450"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="834,295,986,382,983,386,832,300"/>
+<area shape="rect" id="Node000008" href="$classcomponents_1_1_static_render_component.html" title="Render component for static objects." alt="" coords="1164,366,1330,468"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="835,250,990,293,1073,321,1153,354,1174,364,1172,369,1151,358,1071,326,988,298,834,256"/>
+<area shape="rect" id="Node000002" href="$classcomponents_1_1_component.html" title="Base class for component system." alt="" coords="627,5,784,92"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="708,107,708,140,703,140,703,107"/>
+</map>

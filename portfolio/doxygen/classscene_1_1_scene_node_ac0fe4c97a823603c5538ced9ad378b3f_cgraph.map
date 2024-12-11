@@ -1,0 +1,5 @@
+<map id="scene::SceneNode::addChild" name="scene::SceneNode::addChild">
+<area shape="rect" id="Node000001" title="Adds a child node to this node." alt="" coords="5,13,197,38"/>
+<area shape="rect" id="Node000002" href="$classscene_1_1_scene_node.html#aa166bcd53b04aa11f2d48d2db9c96a46" title="Removes a child node." alt="" coords="245,5,428,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="197,23,229,23,229,28,197,28"/>
+</map>

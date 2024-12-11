@@ -1,0 +1,5 @@
+<map id="scene::SceneNode::render" name="scene::SceneNode::render">
+<area shape="rect" id="Node000001" title="Renders this node and all children recursively." alt="" coords="199,5,375,31"/>
+<area shape="rect" id="Node000002" href="$classscene_1_1_scene.html#a3d86581be6dd177afb8f0c84e3d66970" title="Renders entire scene." alt="" coords="5,5,151,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="183,21,151,21,151,16,183,16"/>
+</map>

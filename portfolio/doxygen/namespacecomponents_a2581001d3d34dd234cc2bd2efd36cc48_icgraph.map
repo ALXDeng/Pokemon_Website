@@ -1,0 +1,6 @@
+<map id="components::AttackAnimation_Shake" name="components::AttackAnimation_Shake">
+<area shape="rect" id="Node000001" title="Performs a shaking attack animation for a Pokémon." alt="" coords="265,29,461,70"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="404,16,389,10,363,8,339,10,324,15,318,21,321,28,316,29,313,19,321,10,338,5,363,3,390,5,406,11"/>
+<area shape="rect" id="Node000002" href="$classcomponents_1_1_battle_menu_options.html#a5dbdd48b8c866279463d5010f2576f10" title=" " alt="" coords="5,29,217,70"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="249,52,217,52,217,47,249,47"/>
+</map>

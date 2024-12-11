@@ -1,0 +1,5 @@
+<map id="scene::Scene::update" name="scene::Scene::update">
+<area shape="rect" id="Node000001" title="Updates scene if not paused." alt="" coords="5,5,154,31"/>
+<area shape="rect" id="Node000002" href="$classscene_1_1_scene_node.html#a95a5145e8637e7ddd5567d4b3ee960ea" title="Updates this node and all children recursively." alt="" coords="202,5,381,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="154,16,186,16,186,21,154,21"/>
+</map>

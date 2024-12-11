@@ -1,0 +1,7 @@
+<map id="animation::stop" name="animation::stop">
+<area shape="rect" id="Node000001" title="Stops the current animation." alt="" coords="5,29,116,55"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="27,30,20,21,24,11,38,5,61,3,85,5,98,12,95,17,83,10,60,8,39,10,28,15,26,20,31,27"/>
+<area shape="rect" id="Node000002" href="$namespaceanimation.html#a9d145c87f9c3ea52e5b5646702d54a21" title="Updates the source rectangle for the current frame." alt="" coords="164,29,357,55"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="116,40,148,40,148,45,116,45"/>
+<area shape="poly" id="edge3_Node000002_Node000002" title=" " alt="" coords="227,30,220,21,224,11,238,5,260,3,285,5,297,12,295,17,283,10,260,8,239,10,228,15,226,20,231,27"/>
+</map>

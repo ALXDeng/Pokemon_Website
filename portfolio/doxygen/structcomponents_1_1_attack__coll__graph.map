@@ -1,0 +1,5 @@
+<map id="components::Attack" name="components::Attack">
+<area shape="rect" id="Node000001" title="Represents an attack with a name and damage value." alt="" coords="5,135,133,201"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="57,5,82,72"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="72,71,72,118,66,118,66,71"/>
+</map>
